@@ -2,7 +2,7 @@
 
 This is a simple **MERN Stack CRUD project** where users can **Create, Read, Update, and Delete** user details like Name, Email, and Age.
 
-## 🚀 Features
+##  Features
 
 - Create new users
 - Display all users in a table
@@ -12,7 +12,7 @@ This is a simple **MERN Stack CRUD project** where users can **Create, Read, Upd
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
 - **Frontend:** React.js, Axios, Tailwind CSS
 - **Backend:** Node.js, Express.js, Mongoose
@@ -20,23 +20,23 @@ This is a simple **MERN Stack CRUD project** where users can **Create, Read, Upd
 
 ---
 
-## 📸 Project Screenshots
+##  Project Screenshots
 
-### 🏠 Home Page - User List
+###  Home Page - User List
 
 ![Home Page](images/home.png)
 
-### ➕ Create User Page
+###  Create User Page
 
 ![Create User](images/create.png)
 
-### ✏️ Update User Page
+### ✏ Update User Page
 
 ![Update User](images/update.png)
 
 ---
 
-## ⚙️ Installation & Run Locally
+##  Installation & Run Locally
 
 1. **Clone the repository**
 
