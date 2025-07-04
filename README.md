@@ -30,7 +30,7 @@ This is a simple **MERN Stack CRUD project** where users can **Create, Read, Upd
 
 ![Create User](images/create.png)
 
-### ✏ Update User Page
+### Update User Page
 
 ![Update User](images/update.png)
 
