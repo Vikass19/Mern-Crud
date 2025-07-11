@@ -24,7 +24,7 @@ This is a simple **MERN Stack CRUD project** where users can **Create, Read, Upd
 
 ###  Home Page - User List
 
-![Home Page](images/home.png)
+![Home Page](add.png)
 
 ###  Create User Page
 
