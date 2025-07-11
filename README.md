@@ -28,11 +28,13 @@ This is a simple **MERN Stack CRUD project** where users can **Create, Read, Upd
 
 ###  Create User Page
 
-![Create User](images/create.png)
+![Create User](create.png)
 
+### deleting user
+![deleting User](loading.png)
 ### Update User Page
 
-![Update User](images/update.png)
+![Update User](update.png)
 
 ---
 
