@@ -2,6 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const mongoose = require('mongoose')
 const UserModel = require('./models/Users')
+require('dotenv').config()
 
 const app = express()
 
@@ -55,9 +56,12 @@ app.delete('/deleteUser/:id' , async (req , res) => {
 });
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/crud')
-.then(() => {console.log('mongo db connected...')})
-.catch((err) => {console.log('database connection error : ' , err)});
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log('MongoDB connected...'))
+.catch(err => console.log('Database connection error:', err));
 
 
 
