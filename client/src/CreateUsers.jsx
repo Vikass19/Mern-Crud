@@ -14,7 +14,7 @@ const CreateUsers = () => {
     setLoading(true); 
     setTimeout(() => {
       axios
-        .post("http://localhost:3001/createUser", { name, email, age })
+        .post("https://mern-crud-ytj2.onrender.com/createUser", { name, email, age })
         .then((result) => {
           console.log(result);
           setLoading(false); 

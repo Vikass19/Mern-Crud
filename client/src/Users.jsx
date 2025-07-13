@@ -12,7 +12,7 @@ const Users = () => {
 
   const fetchUsers = async () => {
     try {
-      const response = await axios.get("http://localhost:3001/getUsers");
+      const response = await axios.get("https://mern-crud-ytj2.onrender.com/getUsers");
       setUsers(response.data);
     } catch (error) {
       console.log("error fetching users:", error);
@@ -23,7 +23,7 @@ const Users = () => {
     setLoading(true); 
     setTimeout(async () => {
       try {
-        await axios.delete(`http://localhost:3001/deleteUser/${id}`);
+        await axios.delete(`https://mern-crud-ytj2.onrender.com/deleteUser/${id}`);
         fetchUsers();
         setLoading(false);
       } catch (err) {

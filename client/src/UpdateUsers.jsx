@@ -32,7 +32,7 @@ const UpdateUsers = () => {
     e.preventDefault();
     setLoading(true); 
     setTimeout(() => {
-      axios.put(`http://localhost:3001/updateUser/${id}`, formData)
+      axios.put(`https://mern-crud-ytj2.onrender.com/updateUser/${id}`, formData)
         .then(res => {
           console.log('user updated : ', res.data);
           setLoading(false);
