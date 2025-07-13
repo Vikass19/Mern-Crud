@@ -3,6 +3,7 @@ const cors = require('cors')
 const mongoose = require('mongoose')
 const UserModel = require('./models/Users')
 require('dotenv').config()
+const PORT = process.env.PORT ;
 
 const app = express()
 
@@ -65,5 +66,6 @@ mongoose.connect(process.env.MONGO_URI, {
 
 
 
-
-app.listen(3001 , () => {console.log('server is running on http://localhost:3001')})
+app.listen(PORT, () => {
+  console.log(`server is running on http://localhost:${PORT}`);
+});
